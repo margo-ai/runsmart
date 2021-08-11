@@ -8,14 +8,30 @@
         font-weight: 700;
         text-transform: uppercase;
     }
-    &__items {
+    &__wrapper {
+        margin-top: 70px;
         display: flex;
         justify-content: space-between;        
     }
-    &__item {
+    &__item {        
+        max-width: 238px;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
+        align-items: center;        
+    }
+    &__title {
+        margin-top: 38px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__descr {
+        margin-top: 26px;
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+    &__link {
+        color: red;
     }
 }
