@@ -32,6 +32,16 @@
             color: #fff;
         }
     }
+
+    @keyframes spinAround {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
     &__social-item {
         display: flex;
         justify-content: center;
@@ -39,6 +49,9 @@
         width: 50px;
         height: 50px;
         margin: 0 15px;
+        &:hover {
+            animation: spinAround 1.5s;
+        }
         img {
             height: 40px;
         }
