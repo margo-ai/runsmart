@@ -28,12 +28,12 @@
     &__link {
         color: red;
     }
-    &__icon {
-        &_animated {
-            animation: heartbeat 1.5s ease infinite;            
-            &:hover {
-                animation-play-state: paused;
-            }
-        }
-    }
+    // &__icon {
+    //     &_animated {
+    //         animation: heartbeat 1.5s ease infinite;            
+    //         &:hover {
+    //             animation-play-state: paused;
+    //         }
+    //     }
+    // }
 }
